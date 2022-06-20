@@ -1,9 +1,22 @@
 .imgContainer {
     display: flex;
-    gap: .2rem;
-    transform: translateX(40%);
+    transition: transform 150ms ease-out;
+    
 }
 img {
     flex: 0 0 20%;
     border-radius: .2rem;
+    box-sizing: border-box;
+}
+
+.navigation {
+    display: flex;
+}
+.progressBar {
+    flex: 1 1 50%;
+    display: flex;
+    border: solid black;
+}
+.progressItem {
+    flex: auto;
 }
