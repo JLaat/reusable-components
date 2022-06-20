@@ -1,0 +1,9 @@
+.imgContainer {
+    display: flex;
+    gap: .2rem;
+    transform: translateX(40%);
+}
+img {
+    flex: 0 0 20%;
+    border-radius: .2rem;
+}
