@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+/* Set content to fill up whole page*/
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Style header */ 
+.header {
+    background-color: gainsboro;
+    padding: .5rem;
+    position: relative;
+
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+/* Dropdown styling*/
+.dropdown > *  {
+    font-family: inherit;
+    font-size: 1.2em;
+    text-decoration: none;
+    border: none;
+
+    background-color: rgba(1, 1, 1, 0);
+    color:rgb(73, 73, 73);
+}
+.dropdown > *:hover {
+    color: black;
+}
+
+.dropdownItems {
+    opacity: 0;
+    visibility:hidden;
+    background-color: white;
+
+    position: absolute;
+    top: 90%;
+
+    border-radius: .2em;
+    box-shadow: 1px 5px 10px;
+    padding: 1rem;
+
+    transition: opacity 500ms;
+
+}
+ul {
+    list-style-type: none;
+    padding: .2em;
+}
+
+
